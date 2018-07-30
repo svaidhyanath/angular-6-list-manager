@@ -1,0 +1,15 @@
+<!-- <div>  user-list-component works!</div> -->
+<div>
+    <h2>User List</h2>
+
+    <div *ngFor="let userDetail of users" (click)="onSelect(userDetail)">
+      <div class="eachUser">
+        <p><span>ID: {{userDetail.id}}</span>  ||  <span>Name: {{userDetail.name}}</span></p>
+      </div>
+    </div>
+</div>
+
+
+<div>
+  <h3>#{{selectedUser.id}} -- {{selectedUser.name | uppercase}} Selected</h3>
+</div>

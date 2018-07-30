@@ -1,0 +1,6 @@
+.eachUser{
+  border: 1px black double;
+  width: 300px;
+  text-align: center;
+  float: left;
+}
